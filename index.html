@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header container">
+      <img src="./img/logo.png" alt="Логотип" class="header__logo" />
+      <nav class="header__nav navigation">
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a href="#" class="header__link">Main</a>
+          </li>
+          <li class="header__list-item">
+            <a href="#" class="header__link">Our services</a>
+          </li>
+          <li class="header__list-item">
+            <a href="#" class="header__link">About</a>
+          </li>
+          <li class="header__list-item">
+            <a href="#" class="header__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__language switch-language">
+        <button class="header__language-button ru">RU</button>
+
+        <button class="header__language-button en">EN</button>
+
+        <div class="menu">
+          <button class="menu__button">
+            <img src="./img/menu.svg" alt="Меню" class="menu__button-icon" />
+          </button>
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="#" class="menu__link">Main</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__link">Our services</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__link">About</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="baner">
+      <img src="./img/baner.jpg" alt="" class="baner__img" />
+      <div class="wrap__baner container">
+        <h1 class="baner__title">
+          KEEPING YOU ON THE ROAD WITH SERVICE YOU CAN TRUST
+        </h1>
+        <button class="baner__button">Show more</button>
+
+        <ul class="baner__list">
+          <li class="baner__item">
+            <img src="./img/phone.png" alt="Телефон" class="baner__item-img" />
+            <h4 class="baner__item-text">CALL US NOW 222-222-222</h4>
+            <!-- не h4 а span -->
+            <span class="baner__item-description">Feel free to call us</span>
+          </li>
+          <li class="baner__item">
+            <img
+              src="/img/calendar.png"
+              alt="Календарь"
+              class="baner__item-img"
+            />
+            <h4 class="baner__item-text">GET FREE APPOITMET</h4>
+            <span class="baner__item-description">
+              Free Diagnosis & Brake Checks
+            </span>
+          </li>
+          <li class="baner__item">
+            <img src="/img/flag.png" alt="Флажок" class="baner__item-img" />
+            <h4 class="baner__item-text">FIND US ON MAP</h4>
+            <span class="baner__item-description">New York, 1286 Ruumu Nanor</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="services container">
+      <!-- лишний класс wrap__services -->
+        <h2 class="services__title">OUR SERVICES</h2>
+        <a href="#" class="services__subtitle"> VIEW ALL SERVICES </a>
+        <ul class="services__cards">
+          <li class="services__card">
+            <div class="card__top">
+              <p class="wrap__card-img">
+                <img
+                  src="./img/plus.png"
+                  alt="Добавить"
+                  class="services__card-img"
+                />
+              </p>
+              <p class="services__card-text">
+                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+              </p>
+            </div>
+            <div class="card__low">
+              <p class="card__low-title">DIAGNOSTIC</p>
+            </div>
+          </li>
+          <li class="services__card">
+            <div class="card__top">
+              <p class="wrap__card-img">
+                <img
+                  src="./img/plus.png"
+                  alt="Добавить"
+                  class="services__card-img"
+                />
+              </p>
+              <p class="services__card-text">
+                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+              </p>
+            </div>
+            <div class="card__low">
+              <p class="card__low-title">TIRES & WHEELS</p>
+            </div>
+          </li>
+          <li class="services__card">
+            <div class="card__top">
+              <p class="wrap__card-img">
+                <img
+                  src="./img/plus.png"
+                  alt="Добавить"
+                  class="services__card-img"
+                />
+              </p>
+              <p class="services__card-text">
+                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+              </p>
+            </div>
+            <div class="card__low">
+              <p class="card__low-title">ENGINES</p>
+            </div>
+          </li>
+        </ul>
+
+    </section>
+    <section class="informations">
+      <div class="wrap__informations container">
+        <div class="description">
+          <h1 class="informations__title">
+            WE UNDERSTAND HOW IMPORTANT IT IS TO FIND THE RIGHT AUTO SERVICE
+          </h1>
+          <p class="informations__text">
+            Car repairs and maintenance can be expensive and no one wants to
+            have pay to repair damage caused by shoddy repair service. When you
+            bring your car into our auto shop, you won’t have to worry because
+            our staff is comprised of ASE certified technicians who are
+            committed to making sure you have a safe dependable car.
+          </p>
+          <a href="#" class="informations__link"> MORE ABOUT US </a>
+        </div>
+
+        <p class="wrap__informations-img">
+          <img
+            src="./img/diagnostics.jpg"
+            alt="Диагностика"
+            class="informations__img"
+          />
+        </p>
+      </div>
+    </section>
+    <section class="work-process container">
+      <div class="wrap__work-process ">
+        <h1 class="work-process__title">FAST & EASY</h1>
+        <h2 class="work-process__subtitle">our work process</h2>
+        <ul class="work-process__list">
+          <li class="work-process__item">
+            <h4 class="work-process__item-title">1.Request your quote</h4>
+            <span class="work-process__item-subtitle">
+              We will be there when you most need us
+            </span>
+          </li>
+          <li class="work-process__item">
+            <h4 class="work-process__item-title">02. BRING YOUR VEHICLE</h4>
+            <span class="work-process__item-subtitle">
+              We are car guys at heart
+            </span>
+          </li>
+          <li class="work-process__item">
+            <h4 class="work-process__item-title">03. GET IT REPAIRED</h4>
+            <span class="work-process__item-subtitle">
+              High quality, low cost car servicing
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="wrap__contact container">
+        <h1 class="contact__title">Contact us</h1>
+        <form class="contact__form">
+          <input class="contact__form-input" placeholder="Name" />
+          <input class="contact__form-input" placeholder="Last name" />
+          <input class="contact__form-input" placeholder="Email" />
+          <input class="contact__form-input" placeholder="Phone" />
+
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message"
+            class="contact__form-textarea"
+          >
+          </textarea>
+          <button class="contact__form-button">Send</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="wrap__footer container">
+        <h5 class="footer__text">© 2021 Auto theme by Frontend Tricks</h5>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="">
+                <img src="/img/in.svg" alt="" class="footer__item-icon" />
+            </a>
+          </li>
+          <li class="footer__item">
+            <img src="/img/facebook.svg" alt="" class="footer__item-icon" />
+          </li>
+          <li class="footer__item">
+            <img src="/img/instagram.svg" alt="" class="footer__item-icon" />
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
